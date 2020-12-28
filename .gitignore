@@ -1,0 +1,12 @@
+TapApp
+Design
+Design/
+Font/
+imgs/
+*.psd
+*.ai
+.txt
+todo*
+firebase/
+node_modules
+yarn.lock
