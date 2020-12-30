@@ -9,14 +9,27 @@
     form {
         height: 5vh;
         width: 100%;
-        border: 1px dashed orange;
+        //border: 1px dashed orange;
         display: flex;
+        justify-content: center;
 
         input {
             padding: 0;
             margin: 0;
-            width: 78%;
-            background-color: black;
+            width: 75%;
+            background-color: transparent;
+            border-left: hidden;
+            border-right: hidden;
+            border-top: hidden;
+            border-bottom: 1px solid black;
+            color: lightblue;
+            text-align: center;
+
+            &:hover, &:focus {
+                border-left: hidden;
+                border-right: hidden;
+                border-top: hidden;
+            }
 
         }
 
@@ -32,7 +45,7 @@
         margin-top: 2%;
         height: 7vh;
         width: 100%;
-        border: 1px dashed red;
+        //border: 1px dashed red;
         display: flex;
         justify-content: center;
         
@@ -40,7 +53,7 @@
         a {
             height: 100%;
             width: auto;
-            border: 1px dashed purple;
+            // border: 1px dashed purple;
             text-decoration: none;
             margin-right: 5px;
             margin-left: 5px;

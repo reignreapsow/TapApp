@@ -10,14 +10,18 @@ import logo from "./../imgs/sexy_silhouette_2.png";
 
 import "./../scss/pages/loginScreen.scss";
 
+//# TEST PASSWORD
+let passWord = true;
+
+//# Password check
 function login() {
-  login ? (
+  passWord ? (
     //Redirect to dashboard on password accept
     <Redirect to={Home} />
   ) : (
     //if password fails reload page
     //TODO set to blank input
-    window.location.reload(true)
+    window.location.reload(false)
   );
 }
 
