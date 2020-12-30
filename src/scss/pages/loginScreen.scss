@@ -27,14 +27,44 @@
             height: 100%;
         }
     }
-    .alt-login {
-        padding: 0;
+    .alt__login {
         margin: 0;
-        height: 5vh;
+        margin-top: 2%;
+        height: 7vh;
         width: 100%;
+        border: 1px dashed red;
+        display: flex;
+        justify-content: center;
+        
 
-        .button{
+        a {
+            height: 100%;
+            width: auto;
+            border: 1px dashed purple;
+            text-decoration: none;
+            margin-right: 5px;
+            margin-left: 5px;
 
+            &:hover {
+                background-color: darkgreen;
+
+                .quickLogin_btn{
+                    background-color: darkgreen;
+                    //TODO ADD GLOW TRANSITION ON HOVER to NEON Green
+                    fill: lightgreen;
+                }
+            }
+
+            .quickLogin_btn {
+                height: 100%;
+                width: auto;
+                margin-left: 5%;
+                align-items: space-evenly;
+                color: green;
+                background-color: brown;
+                
+                
+            }
         }
     }
 }
