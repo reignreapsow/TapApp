@@ -1,0 +1,40 @@
+.loginScreen {
+
+    .loginScreen__logo{
+        margin-top: 5vh;
+        height: 70vh;
+        width: 80%;
+    }
+
+    form {
+        height: 5vh;
+        width: 100%;
+        border: 1px dashed orange;
+        display: flex;
+
+        input {
+            padding: 0;
+            margin: 0;
+            width: 78%;
+            background-color: black;
+
+        }
+
+        button{
+            padding: 0;
+            margin: 0;
+            width: 20%;
+            height: 100%;
+        }
+    }
+    .alt-login {
+        padding: 0;
+        margin: 0;
+        height: 5vh;
+        width: 100%;
+
+        .button{
+
+        }
+    }
+}
