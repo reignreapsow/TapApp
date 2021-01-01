@@ -1,0 +1,83 @@
+.loginScreen {
+
+    .loginScreen__logo{
+        margin-top: 5vh;
+        height: 70vh;
+        width: 80%;
+    }
+
+    form {
+        height: 5vh;
+        width: 100%;
+        //border: 1px dashed orange;
+        display: flex;
+        justify-content: center;
+
+        input {
+            padding: 0;
+            margin: 0;
+            width: 75%;
+            background-color: transparent;
+            border-left: hidden;
+            border-right: hidden;
+            border-top: hidden;
+            border-bottom: 1px solid black;
+            color: lightblue;
+            text-align: center;
+
+            &:hover, &:focus {
+                border-left: hidden;
+                border-right: hidden;
+                border-top: hidden;
+            }
+
+        }
+
+        button{
+            padding: 0;
+            margin: 0;
+            width: 20%;
+            height: 100%;
+        }
+    }
+    .alt__login {
+        margin: 0;
+        margin-top: 2%;
+        height: 7vh;
+        width: 100%;
+        //border: 1px dashed red;
+        display: flex;
+        justify-content: center;
+        
+
+        a {
+            height: 100%;
+            width: auto;
+            // border: 1px dashed purple;
+            text-decoration: none;
+            margin-right: 5px;
+            margin-left: 5px;
+
+            &:hover {
+                background-color: darkgreen;
+
+                .quickLogin_btn{
+                    background-color: darkgreen;
+                    //TODO ADD GLOW TRANSITION ON HOVER to NEON Green
+                    fill: lightgreen;
+                }
+            }
+
+            .quickLogin_btn {
+                height: 100%;
+                width: auto;
+                margin-left: 5%;
+                align-items: space-evenly;
+                color: green;
+                background-color: brown;
+                
+                
+            }
+        }
+    }
+}
